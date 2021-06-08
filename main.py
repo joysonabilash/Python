@@ -8,7 +8,7 @@ def index():
     return 'Hello World'
 
 
-@app.route("/view", methods=['GET'])
+@app.route("/favicon.ico ", methods=['GET'])
 def index():
     return 'Hello View'
 
