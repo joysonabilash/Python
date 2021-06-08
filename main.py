@@ -8,5 +8,10 @@ def index():
     return 'Hello World'
 
 
+@app.route("/view", methods=['GET'])
+def index():
+    return 'Hello View'
+
+
 if __name__ == '__main__':
     app.run()
