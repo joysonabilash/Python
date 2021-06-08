@@ -9,7 +9,7 @@ def index():
 
 
 @app.route("/favicon.ico ", methods=['GET'])
-def index():
+def favicon():
     return 'Hello View'
 
 
